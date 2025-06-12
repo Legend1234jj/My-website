@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LEGENDEDITORYT64</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      color: #fff;
+      background: #000;
+      background-image: url('bg.jpg'); /* rename if needed */
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+      backdrop-filter: brightness(0.3);
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      letter-spacing: 2px;
+      animation: fadeDown 1.2s ease-in-out;
+    }
+
+    p {
+      font-size: 1rem;
+      max-width: 600px;
+      margin: 10px auto 30px;
+      line-height: 1.6;
+      color: #ccc;
+      animation: fadeUp 1.5s ease-in-out;
+    }
+
+    .button {
+      display: inline-block;
+      margin: 10px;
+      padding: 14px 26px;
+      border-radius: 30px;
+      background: rgba(255, 255, 255, 0.1);
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      backdrop-filter: blur(5px);
+      transition: all 0.3s;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    .button:hover {
+      background: rgba(255, 255, 255, 0.3);
+    }
+
+    @keyframes fadeDown {
+      0% {opacity: 0; transform: translateY(-20px);}
+      100% {opacity: 1; transform: translateY(0);}
+    }
+
+    @keyframes fadeUp {
+      0% {opacity: 0; transform: translateY(20px);}
+      100% {opacity: 1; transform: translateY(0);}
+    }
+
+    @keyframes fadeIn {
+      0% {opacity: 0;}
+      100% {opacity: 1;}
+    }
+  </style>
+</head>
+<body>
+  <h1>LEGENDEDITORYT64</h1>
+  <p>Welcome to my world where strength meets creativity. Arm-Wrestling ⚡ Visual Editing ⚡ Real Hustle. Join the movement and witness the power of aesthetic visuals & raw passion.</p>
+
+  <a class="button" href="https://youtube.com/@legendeditoryt64" target="_blank">🎬 YouTube</a>
+  <a class="button" href="https://instagram.com/gautam.64_" target="_blank">📸 Instagram</a>
+  <a class="button" href="https://t.me/legendcreator64" target="_blank">💬 Telegram</a>
+</body>
+</html>
